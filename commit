@@ -1,4 +1,4 @@
-TYPE=$(gum choose "fix" "feat" "docs" "style" "refactor" "test" "chore" "revert")
+TYPE=$(gum choose "update" "fix" "feat" "docs" "style" "refactor" "test" "chore" "revert")
 SCOPE=$(gum input --placeholder "scope")
 
 test -n "$SCOPE" && SCOPE="($SCOPE)"
