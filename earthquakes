@@ -4,4 +4,4 @@
 curl -s https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.csv |
   sed '1d' |
   cut -d, -f5 |
-  spark
+  spark|lolcat
