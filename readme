@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [ -f "README.md" ]; then
+    gum format < README.md
+else
+    gum style --foreground 212 --align center 'No README.md in this directory ... Bummer 💩'
+fi
