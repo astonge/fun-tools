@@ -14,3 +14,15 @@
 ## Resources
 - [wttr.in](https://github.com/chubin/wttr.in)
 
+## 🤝 Contributing
+
+### Clone the repo
+
+```bash
+git clone https://github.com/astonge/fun-tools@latest
+cd fun-tools
+```
+
+### Submit a pull request
+
+If you'd like to contribute, please fork the repository and open a pull request to the `main` branch.
